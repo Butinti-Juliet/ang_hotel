@@ -1,0 +1,33 @@
+<div class="navtabs-container">
+    <nav mat-tab-nav-bar fxFlex fxLayout="row" fxLayoutAlign="center center">
+        <a mat-tab-link routerLink="/" routerLinkActive #home="routerLinkActive" [active]="home.isActive">
+      Home
+    </a>
+        <a mat-tab-link routerLink="/accomodation" routerLinkActive #accomodation="routerLinkActive" [active]="accomodation.isActive">
+      Accomodation
+    </a>
+        <a mat-tab-link routerLink="/food-beverage" routerLinkActive #food_beverage="routerLinkActive" [active]="food_beverage.isActive">
+      Food and Beverage
+    </a>
+        <a mat-tab-link routerLink="/contact" routerLinkActive #contact="routerLinkActive" [active]="contact.isActive">
+      Contact
+    </a>
+        <a mat-tab-link routerLink="/about" routerLinkActive #about="routerLinkActive" [active]="about.isActive">
+      About
+    </a>
+        <a mat-tab-link routerLink="/booking" routerLinkActive #booking="routerLinkActive" [active]="booking.isActive">
+      Booking
+    </a>
+        <a mat-tab-link routerLink="/details" routerLinkActive #details="routerLinkActive" [active]="details.isActive">
+      Details
+    </a>
+        <a mat-tab-link routerLink="/payment" routerLinkActive #payment="routerLinkActive" [active]="payment.isActive">
+      payment
+    </a>
+
+        <!-- <div class="footer">
+            <p>Created by Juliet Pheladi</p>
+        </div> -->
+
+    </nav>
+</div>

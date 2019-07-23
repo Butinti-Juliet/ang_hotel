@@ -1,0 +1,185 @@
+#output {
+    background-color: #c5edf3;
+    color: darkcyan;
+    font-size: 17px;
+    padding: 30px 30px;
+    width: 40%;
+    border: 2px solid #009688;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
+#newPublish {
+    background-color: #c5edf3;
+    color: darkcyan;
+    font-size: 17px;
+    padding: 30px 30px;
+    width: 40%;
+    border: 2px solid #009688;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
+.box {
+    background-color: #f7f7f7;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 40px 60px;
+}
+
+#details_info {
+    background-color: #f7f7f7;
+    color: darkcyan;
+    font-size: 17px;
+    padding: 30px 30px;
+    width: 40%;
+    border: 1px solid #cccccc;
+    font-family: sans-serif;
+    line-height: 1.8;
+    margin-left: 90px;
+}
+
+.box3 {
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: gainsboro;
+}
+
+.box11 {
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: gainsboro;
+    line-height: 2.5;
+}
+
+.web_design_box {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: #d9edf7;
+    box-shadow: 3px 5px 10px #318f86;
+}
+
+.hotel_reserve_box {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 40px 50px;
+    background-color: #c6badc;
+    box-shadow: 3px 5px 10px darkcyan;
+}
+
+.online_food_delivery_box {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 20px 40px;
+    background-color: #d4c0b9;
+    box-shadow: 3px 5px 10px #714c4a;
+}
+
+.result_box {
+    margin-top: 15%;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding: 20px 40px;
+    background-color: #d4c0b9;
+    box-shadow: 3px 5px 10px darkcyan;
+}
+
+.result_box_text {
+    color: #232222;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.result_box_text span {
+    color: #614136;
+    font-size: 26px;
+    text-align: center;
+}
+
+body {
+    background-image: url('pp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Numans', sans-serif;
+    position: relative;
+    height: 1000px;
+    z-index: 2;
+}
+
+button {
+    background-color: #009688;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}

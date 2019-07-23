@@ -1,0 +1,111 @@
+<!-- <p>
+  details works!
+</p> -->
+<!-- <form>
+
+    <body>
+        <h3>Confirmation form</h3>
+        <p>Room/Suite Type: {{roomType}}</p>
+        <p>Number of room/suite: {{numOfSuit}}</p>
+        <p>Number of persons: {{numOfPerson}}</p>
+        <p>Number of children: {{numOfChildren}}</p>
+
+
+        <h5><u>You have now booked please confirm...</u></h5><br>
+
+        <button type="submit" class="btn btn-success " [routerLink]="['/payment']" queryParamsHandling="preserve">Confirm</button>
+
+    </body>
+</form> -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Confirmation Form </title>
+</head>
+
+<body>
+    <div class="hotel_reserve_box">
+        <h3> Confirmation Form </h3><br>
+        <form>
+            <div class="form-group">
+                <p>Room/Suite Type: {{roomType}}</p>
+            </div>
+
+            <div class="form-group">
+                <p>Number of room/suite: {{numOfSuit}}</p>
+            </div>
+
+            <div class="form-group">
+                <p>Number of persons: {{numOfPerson}}</p>
+            </div>
+
+            <div class="form-group">
+                <p>Number of children: {{numOfChildren}}</p>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-success " [routerLink]="['/payment']" queryParamsHandling="preserve">Confirm</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<footer class="section footer-classic context-dark bg-image" style="background: darkcyan;">
+    <div class="container">
+        <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+                <div class="pr-xl-4">
+                    <a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                    <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+                    <!-- Rights-->
+                    <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Contacts</h5>
+                <dl class="contact-list">
+                    <dt>Address:</dt>
+                    <dd>798 South Park Avenue, Jaipur, Raj</dd>
+                </dl>
+                <dl class="contact-list">
+                    <dt>email:</dt>
+                    <dd><a href="mailto:#">butinti97@gmail.com</a></dd>
+                </dl>
+                <dl class="contact-list">
+                    <dt>phones:</dt>
+                    <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+                <h5>Links</h5>
+                <ul class="nav-list">
+                    <li><a href="#">Accommodation</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Food and Beverage</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row no-gutters social-container">
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+</footer>

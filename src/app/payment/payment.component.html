@@ -1,0 +1,138 @@
+<!-- <p>
+  payment works!
+</p> -->
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <form class="form-horizontal span6">
+                    <fieldset>
+                        <legend>Payment</legend>
+
+                        <div class="control-group">
+                            <label class="control-label">Card Holder's Name</label>
+                            <div class="controls">
+                                <input type="text" class="input-block-level" pattern="\w+ \w+.*" title="Fill your first and last name" required>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">Card Number</label>
+                            <div class="controls">
+                                <div class="row-fluid">
+                                    <div class="span3">
+                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="First four digits" required>
+                                    </div>
+                                    <div class="span3">
+                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Second four digits" required>
+                                    </div>
+                                    <div class="span3">
+                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Third four digits" required>
+                                    </div>
+                                    <div class="span3">
+                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Fourth four digits" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">Card Expiry Date</label>
+                            <div class="controls">
+                                <div class="row-fluid">
+                                    <div class="span9">
+                                        <select class="input-block-level">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>July</option>
+                    <option>December</option>
+                  </select>
+                                    </div>
+                                    <div class="span3">
+                                        <select class="input-block-level">
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2019</option>
+                  </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">Card CVV</label>
+                            <div class="controls">
+                                <div class="row-fluid">
+                                    <div class="span3">
+                                        <input type="text" class="input-block-level" autocomplete="off" maxlength="3" pattern="\d{3}" title="Three digits at back of your card" required>
+                                    </div>
+                                    <div class="span8">
+                                        <!-- screenshot may be here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary" [routerLink]="['/']">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<footer class="section footer-classic context-dark bg-image" style="background: darkcyan;">
+    <div class="container">
+        <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+                <div class="pr-xl-4">
+                    <a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                    <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+                    <!-- Rights-->
+                    <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Contacts</h5>
+                <dl class="contact-list">
+                    <dt>Address:</dt>
+                    <dd>798 South Park Avenue, Jaipur, Raj</dd>
+                </dl>
+                <dl class="contact-list">
+                    <dt>email:</dt>
+                    <dd><a href="mailto:#">butinti97@gmail.com</a></dd>
+                </dl>
+                <dl class="contact-list">
+                    <dt>phones:</dt>
+                    <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+                <h5>Links</h5>
+                <ul class="nav-list">
+                    <li><a href="#">Accommodation</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Food and Beverage</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row no-gutters social-container">
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+</footer>
